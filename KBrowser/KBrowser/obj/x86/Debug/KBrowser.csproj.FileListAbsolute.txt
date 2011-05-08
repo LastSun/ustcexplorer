@@ -1,0 +1,17 @@
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\bin\Debug\KBrowser.exe
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\bin\Debug\KBrowser.pdb
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\ResolveAssemblyReference.cache
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\MainWindow.baml
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\MainWindow.g.cs
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\App.g.cs
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\KBrowser_MarkupCompile.cache
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\KBrowser.g.resources
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\KBrowser.Properties.Resources.resources
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\GenerateResource.read.1.tlog
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\GenerateResource.write.1.tlog
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\KBrowser.exe
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\KBrowser.pdb
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\KBrowser.csproj.ResolveComReference.cache
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\TabHeader.baml
+f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\TabHeader.g.cs
+F:\K.F.Storm\Documents\Visual Studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\KBrowser_MarkupCompile.lref
