@@ -15,3 +15,20 @@ f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Deb
 f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\TabHeader.baml
 f:\k.f.storm\documents\visual studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\TabHeader.g.cs
 F:\K.F.Storm\Documents\Visual Studio 2010\Projects\KBrowser\KBrowser\obj\x86\Debug\KBrowser_MarkupCompile.lref
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\KBrowser.csproj.ResolveComReference.cache
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\KBrowser.exe
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\KBrowser.pdb
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\bin\Debug\KBrowser.exe
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\bin\Debug\KBrowser.pdb
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\TabHeader.baml
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\MainWindow.g.cs
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\TabHeader.g.cs
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\App.g.cs
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\KBrowser_MarkupCompile.cache
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\KBrowser_MarkupCompile.lref
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\MainWindow.baml
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\KBrowser.g.resources
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\KBrowser.Properties.Resources.resources
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\My Documents\Visual Studio 2010\Projects\ustcex\KBrowser\KBrowser\obj\x86\Debug\GenerateResource.write.1.tlog
