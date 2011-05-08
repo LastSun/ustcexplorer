@@ -9,7 +9,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition />
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
 
         <Image Name="Favicon" Grid.Column="0" Width="{Binding ElementName=Favicon, Path=Height}" Source="/KBrowser;component/images/Favicon_Default.png">
@@ -17,8 +17,8 @@
         <Label Name="PageTitle" Grid.Column="1">Blank Page</Label>
         <Button Name="Close" Grid.Column="2" Width="{Binding RelativeSource={RelativeSource Self}, Path=ActualHeight}">
             <Button.Background>
-                <SolidColorBrush />
-            </Button.Background> x
+                <SolidColorBrush Color="{StaticResource {x:Static SystemColors.ActiveCaptionColorKey}}" />
+            </Button.Background>X
         </Button>
     </Grid>
 </UserControl>
