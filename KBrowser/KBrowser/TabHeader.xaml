@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300" Height="24" HorizontalAlignment="Left" VerticalAlignment="Top" MaxWidth="160">
+             d:DesignHeight="300" d:DesignWidth="300" Height="24" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" IsEnabled="True" DataContext="{Binding}">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
@@ -12,9 +12,9 @@
             <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
 
-        <Image Name="Favicon" Grid.Column="0" Width="{Binding ElementName=Favicon, Path=Height}" Source="/KBrowser;component/images/Favicon_Default.png">
+        <Image Name="Favicon" Grid.Column="0" Width="{Binding ElementName=Favicon, Path=Height}" Source="/KBrowser;component/images/Favicon_Default.png" Stretch="UniformToFill">
         </Image>
-        <TextBlock Name="PageTitle" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center">Blank Page</TextBlock>
+        <Label Name="PageTitle" Grid.Column="1">Blank Page</Label>
         <Button Name="Close" Grid.Column="2" Width="{Binding RelativeSource={RelativeSource Self}, Path=ActualHeight}">
             <Button.Background>
                 <SolidColorBrush Color="{StaticResource {x:Static SystemColors.ActiveCaptionColorKey}}" />
