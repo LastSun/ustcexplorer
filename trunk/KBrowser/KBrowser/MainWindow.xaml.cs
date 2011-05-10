@@ -34,10 +34,10 @@ namespace KBrowser
             NewTab.MinWidth = 0;
 			NewTab.Header = new TabHeader();
             var header = NewTab.Header as TabHeader;
-            header.Favicon.Visibility = Visibility.Hidden;
-            //header.PageTitle.Content = "+++++++++++";
-            //header.Close.Visibility = Visibility.Hidden;
-            header.Width = header.Height;
+            header.Favicon.Visibility = Visibility.Collapsed;
+            header.PageTitle.Text = "+";
+            header.Close.Visibility = Visibility.Collapsed;
+            //header.Width = header.Height;
             MyTabItems.Add(CreateNewPage());
             MyTabItems.Add(NewTab);
         }
@@ -81,15 +81,15 @@ namespace KBrowser
 
         string GetPageTitle(TabItem tab)
         {
+            string st = "";
             try
             {
-                var st = GetPageDocument(tab).title;
-                return st == "" ? "Blank Page" : st;
+                st = GetPageDocument(tab).title;
             }
             catch (NullReferenceException)
             {
             }
-            return "";
+            return st == "" ? "Blank Page" : st;
         }
 
         string GetPageUrl(TabItem tab)
@@ -125,7 +125,8 @@ namespace KBrowser
 
         void Tab_LoadCompleted(object sender, NavigationEventArgs e)
         {
-            TabItem targettab = null;
+            /*
+             * TabItem targettab = null;
             foreach (TabItem tab in MyTabItems)
             {
                 try
@@ -138,7 +139,9 @@ namespace KBrowser
                 }
                 catch (NullReferenceException) { }
             }
+            */
 
+            TabItem targettab = (sender as WebBrowser).Parent as TabItem;
             try
             {
 
@@ -147,7 +150,7 @@ namespace KBrowser
                     LocationBar.Text = GetPageUrl(targettab);
                     this.Title = GetWindowTitle(GetPageTitle(targettab));
                 }
-                (targettab.Header as TabHeader).PageTitle.Content = GetPageTitle(targettab);
+                (targettab.Header as TabHeader).PageTitle.Text = GetPageTitle(targettab);
             }
             catch (NullReferenceException)
             { }
@@ -155,6 +158,8 @@ namespace KBrowser
 
         int GetTabOrderFromCloseButton(Button close)
         {
+            return MyTabItems.IndexOf(((close.Parent as Grid).Parent as TabHeader).Parent as TabItem);
+            /*
             for (int i = 0; i < MyTabItems.Count - 1; ++i)
             {
                 try
@@ -167,6 +172,7 @@ namespace KBrowser
                 }
             }
             return -1;
+            */
         }
 
         void Close_Click(object sender, RoutedEventArgs e)

@@ -27,7 +27,7 @@ namespace KBrowser
         public TabHeader(string title)
             : this()
         {
-            PageTitle.Content = title;
+            PageTitle.Text = title;
         }
 
     }
